@@ -270,6 +270,10 @@
   compiler.
   ([Giacomo Cavalieri](https://github.com/giacomocavalieri))
 
+- The compiler now emits a warning when a module contains no public definitions
+  and prevents publishing packages with empty modules to Hex.
+  ([Vitor Souza](https://github.com/vit0rr))
+
 - The code generated for floating point division on the JavaScript target has
   been improved to avoid performing needless checks.
   ([Giacomo Cavalieri](https://github.com/giacomocavalieri))
